@@ -11,6 +11,8 @@
 		1ED760DF27B514A30050F6C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED760DE27B514A30050F6C4 /* ContentView.swift */; };
 		1ED760E127B514A60050F6C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED760E027B514A60050F6C4 /* Assets.xcassets */; };
 		1ED760E427B514A60050F6C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED760E327B514A60050F6C4 /* Preview Assets.xcassets */; };
+		1ED760EB27B5154B0050F6C4 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED760EA27B5154B0050F6C4 /* SettingView.swift */; };
+		1ED760ED27B6A0AF0050F6C4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1ED760EC27B6A0AF0050F6C4 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		1ED760DE27B514A30050F6C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1ED760E027B514A60050F6C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1ED760E327B514A60050F6C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1ED760EA27B5154B0050F6C4 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		1ED760EC27B6A0AF0050F6C4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 		1ED760D027B514A20050F6C4 = {
 			isa = PBXGroup;
 			children = (
+				1ED760EC27B6A0AF0050F6C4 /* README.md */,
 				1ED760DB27B514A30050F6C4 /* timer */,
 				1ED760DA27B514A20050F6C4 /* Products */,
 			);
@@ -53,6 +58,7 @@
 			children = (
 				1ED760DC27B514A30050F6C4 /* timerApp.swift */,
 				1ED760DE27B514A30050F6C4 /* ContentView.swift */,
+				1ED760EA27B5154B0050F6C4 /* SettingView.swift */,
 				1ED760E027B514A60050F6C4 /* Assets.xcassets */,
 				1ED760E227B514A60050F6C4 /* Preview Content */,
 			);
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ED760ED27B6A0AF0050F6C4 /* README.md in Resources */,
 				1ED760E427B514A60050F6C4 /* Preview Assets.xcassets in Resources */,
 				1ED760E127B514A60050F6C4 /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ED760EB27B5154B0050F6C4 /* SettingView.swift in Sources */,
 				1ED760DF27B514A30050F6C4 /* ContentView.swift in Sources */,
 				1ED760DD27B514A30050F6C4 /* timerApp.swift in Sources */,
 			);
